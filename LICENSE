@@ -1,20 +1,3 @@
-# LeekPulse
-
-**LeekPulse** is a lightweight, "vanilla" internet connectivity monitor extension for Visual Studio Code.
-
-Developed under the **LeekMind** initiative, this extension is designed to be resource-invisible. It does not download files; it simply "pings" a reliable server (Google) using HTTP HEAD requests every second to measure latency.
-
-## Features
-
-* **Real-time Monitoring:** Updates every second.
-* **Zero Overhead:** Uses virtually 0% CPU and RAM.
-* **Unintrusive:** Sits quietly in your right-hand status bar.
-* **Visual Health:** * $(check) **Green/Standard:** Excellent Connection (<100ms)
-    * $(dashboard) **Yellow:** Fair Connection (<300ms)
-    * $(alert) **Red:** Poor Connection (>300ms)
-
-## License
-
 MIT License
 
 Copyright (c) 2026 Ahmad Shatnawi (Leeking)
